@@ -1,6 +1,14 @@
 'use strict';
 
 var React = require('react');
-var CheckboxWithLabel = require('components/testComponent');
+var Accordion = require('components/accordionComponent');
 
-React.render(<CheckboxWithLabel labelOn="On" labelOff="Off" />, document.getElementById('view'));
+var input = [{
+  name: 'Title 1',
+  content: 'Content belongs to title 1'
+}, {
+  name: 'Title 2',
+  content: 'Content belongs to title 2'
+}];
+
+React.render(<Accordion data={input}/>, document.getElementById('view'));

@@ -6,6 +6,7 @@ Seed project for writing ReactJS components in TDD fashion. This seed uses Jest 
 
 ## Install
 
+```
 npm install
 ```
 
@@ -28,3 +29,5 @@ gulp test
 ```
 
 This task runs the unit tests using `jest`. It will also wait for any changes in the `__tests__` or `scripts` folder to re-run the tests.
+
+
